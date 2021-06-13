@@ -1,0 +1,55 @@
+body {
+    background-color: #181818;
+}
+
+
+p{
+    color:red;
+}
+.btn{
+    transition: 0.1s ease-in-out;
+}
+.btn:hover{
+    transform:scale(1.2);
+}
+
+
+
+.frame-edit{
+width:100%;
+height:700px;
+}
+.bi {
+
+font-size: 25px;
+}
+
+.bi-star-fill {
+color: orange;
+}
+.bi-star-half{
+color: orange;
+}
+@media(max-width:1230px){
+.frame-edit{
+height:632px;
+}
+}
+@media(max-width:1000px){
+.frame-edit{
+height:400px;
+}
+}
+@media(max-width:690px){
+}
+@media(max-width:580px){
+.bb{
+height:300px;
+}
+}
+@media(max-width:510px){
+.frame-edit{
+height:250px;
+margin-top: 2px;
+}
+}
