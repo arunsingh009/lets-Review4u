@@ -54,17 +54,31 @@
         .c-hov {
             transition: transform 0.2s;
         }
-        .c-hov:link{
+
+        .c-hov:link {
             text-decoration: none;
             color: black;
         }
-        .c-hov:active{
-            color:red;
+
+        .c-hov:active {
+            color: red;
         }
 
         .c-hov:hover {
             transform: scale(1.1);
         }
+
+        .img {
+            height: 30px;
+            width: 30px;
+            margin-left: 4px;
+        }
+
+        .img:hover {
+            opacity: 0.3;
+            cursor: pointer;
+        }
+       
 
 
 
@@ -72,6 +86,26 @@
         @media (max-width:580px) {
             .w-100 {
                 height: 50vh;
+            }
+        }
+        @media (max-width:800px){
+            .footp{
+                font-size:10px;
+            }
+            .img{
+                width:20px;
+                height:20px;
+                margin:2px;
+            }
+        }
+        @media (max-width:460px){
+            .footp{
+                font-size:8px;
+            }
+            .img{
+                width:17px;
+                height:17px;
+               
             }
         }
     </style>
@@ -107,7 +141,8 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search for Movies and Web Series" aria-label="Search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search for Movies and Web Series"
+                    aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
@@ -226,7 +261,7 @@
         <!-- carousel ke niche ka section khatam  -->
 
         <!-- about suru kr rhe hai yaha se  -->
-        <section >
+        <section>
             <div class="container box-3">
                 <div class="row featurette">
                     <div class="col-md-7">
@@ -360,132 +395,25 @@
 
     <!-- footer suru kiya hai yaha se  -->
     <!-------------------------------Footer--------------------------------------------->
-    <footer style="background-color:black; color:white" >
+    <footer style="background-color:black; color:white;">
         <br>
-        <div class="container " >
+        
+        <div class="container">
             <div class="row">
-                <div class="col-md-3 wow fadeInDown">
-                    <h4>Contact Us</h4>
-                    <div class="contact-info">
-                        <ul type="none" class="mobile">
-                            <li class="text">
-                                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-fill"
-                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
-                                    <path fill-rule="evenodd"
-                                        d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
-                                </svg>
-                                B/60, New Delhi, India
-                            </li>
-
-                            <li>
-                                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-telephone-fill"
-                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z" />
-                                </svg>
-                                +91 000 129900
-                            </li>
-
-                            <li>
-                                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-envelope-open-fill"
-                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z" />
-                                </svg>
-                                lets_review4u@gmail.com
-                            </li>
-                            <br>
-                            <li>
-                                Experience LetsReview4u app on mobile</li>
-                            <li><button type="button" class="btn btn-dark btn-md download-button"><i
-                                        class="fab fa-google-play"></i> Download</button>
-                                <button type="button" class="btn btn-dark btn-md download-button"><i
-                                        class="fab fa-apple"></i> Download</button>
-                            </li><br>
-
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="contact-info footer-mid">
-                        <ul>
-                            <li><a class="link-color" href="#">Privacy Policy</a> </li>
-                            <li><a class="link-color" href="#"> Feedback </a></li>
-                            <li><a class="link-color" href="#">T&C</a></li>
-                            <li><a class="link-color" href="#">FAQ</a></li>
-                            <li>Keep in Touch</li>
-                            <a class="icon-f" href="#"><i class="social-icon fab fa-facebook-f"></i></a>
-                            <a class="icon-f" href="#"><i class="social-icon fab fa-twitter sp"></i></a>
-                            <a class="icon-f" href="#"><i class="social-icon fab fa-instagram sp"></i></a>
-                            <a class="icon-f" href="#"> <i class="social-icon fas fa-envelope sp"></i></a>
-                        </ul>
-                    </div>
-                </div>
-
-                <!------------------>
-                <div class="col-md-3">
-                    <div class="contact-info">
-                        <div class="wow fadeInDown">
-                            <!-- <h4 style="text-align: justify;">Admins</h4> -->
-                            <ul type="none">
-                                <h4 style="text-align: justify;">Admins</h4>
-
-                                <li>
-                                    <a class="icon-f" href="https://www.instagram.com/prashant16_10/"><i
-                                            class="social-icon fab fa-instagram sp"></i></a>
-                                    <a class="link-color admin" href="https://www.instagram.com/prashant16_10/">Prashant
-                                        Sharma</a>
-                                </li>
-                                <li>
-                                    <a class="icon-f" href="https://www.instagram.com/anshuman.dhiman/"><i
-                                            class="social-icon fab fa-instagram sp"></i></a>
-                                    <a class="link-color admin"
-                                        href="https://www.instagram.com/anshuman.dhiman/">Anshuman Dhiman</a>
-                                </li>
-                                <li>
-                                    <a class="icon-f" href="https://www.instagram.com/arya_vats10/"><i
-                                            class="social-icon fab fa-instagram sp"></i></a>
-                                    <a class="link-color admin" href="https://www.instagram.com/arya_vats10/">Arya
-                                        Vats</a>
-                                </li>
-                                <li>
-                                    <a class="icon-f" href="https://www.instagram.com/vansh7_2001/"><i
-                                            class="social-icon fab fa-instagram sp"></i></a>
-                                    <a class="link-color admin" href="https://www.instagram.com/vansh7_2001/">Vansh
-                                        Mudgal</a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!------------------->
-
-                <div class="col-md-3">
-                    <div class="compact">
-                        <h4>Newsletter Registration</h4>
-                        <p>Subscribe today to receive the latest Corpboot news via email. You may unsubscribe from this
-                            service at any time</p>
-                        <form class="form-inline">
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail3"
-                                    placeholder="Enter your Email...">
-                            </div>
-                            <button type="submit" style="margin:1vw; margin-left: 0;"
-                                class="btn btn-primary btn-sm subscribe_button">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
+              <div class="col-5">
+               <p class="footp">© LetsReview4u. All Rights Reserved.</p>
+              </div>
+              <div class="col-5">
+                <img src="fb.png" class="img" alt="">
+                <img src="ig.png" class="img" alt="">
+                <img src="twiiter.png" class="img" alt="">
+                <img src="yt1.png" class="img" alt="">
+              </div>
+              <div class="col-2">
+                <a href="#home"><img src="https://www.kindpng.com/picc/m/74-740718_transparent-up-arrow-icon-png-2-arrows-pointing.png" class="img"></a>
+              </div>
             </div>
-            <hr>
-            <p class="float-right"><a href="#home">Back to top</a></p>
-            <p>© LetsReview4u. All Rights Reserved. </p>
-
-        </div>
+          </div>
     </footer>
 
 
